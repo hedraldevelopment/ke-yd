@@ -30,6 +30,8 @@ Thats it!
 
 How to get started using keyd
 
+Note: currently keyd1 only supports a-z & 0-9 characters, more coming soon.
+
 ### Creating a user ###
 To encrypt and decrypt messages, you need to make a keyd_node object. keyd_node objects act as a user, and are intended to only be used for communication with ONE other party, to communicate with another party, create a new keyd_node object.
  ```
