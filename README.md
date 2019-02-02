@@ -69,12 +69,20 @@ Decrypting is just as simple
 ```
 decrypted=user2.decrypt(encrypted,user1.get_public_key()) # user 2 decrypts a message recieved from user 1
 ```
-### Closing exchanges:
+### Closing exchanges
 It is good practice to close exchanges when done, due to potential vunerabilities in a system revealing exchange keys.
 ```
 user1.close_exchange(user2.get_public_key()) # user 1 closes the exchange with user 2
 user2.close_exchange(user1.get_public_key()) # user 2 closes the exchange with user 1
 ```
+
+### Best practices
+To make sending and receiving messages as secure as possible, you should follow these simple guidelines:
+* Use custom private keys
+* Use custom bases
+* Use custom modulus'
+* Use custom pair values
+* You can use a custom epoch scale, but anything other than the default is EXTREMELY unstable
 
 ## Other projects
 
