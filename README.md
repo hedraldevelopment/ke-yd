@@ -59,6 +59,10 @@ To encrypt a message
 message="hello there"
 encrypted=user1.encrypt(message,user2.get_public_key()) # user 1 encrypts a message to send to user 2
 ```
+The encrypted message will look like something along the lines of 
+```
+25723811111143548941-5257238121231
+```
 We have to specify the destination public key (this will usually be known and this getter function is only for demonstration purposes) for it to lookup in the dictionary for the corresponding exchange key.
 
 Decrypting is just as simple
