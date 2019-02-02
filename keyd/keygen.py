@@ -14,8 +14,8 @@ class keygen:
         return public_key_
 
     @staticmethod
-    def gen_exchange_key_(public_key_, private_key_, modulus): # return an exchange key generated from a public key and a private key
-        return utils.exp_by_squaring(public_key_,private_key_)%modulus
+    def gen_exchange_key_(public_key_, private_key_, modulus, pair_value): # return an exchange key generated from a public key and a private key
+        return (utils.exp_by_squaring(public_key_,private_key_)%modulus)*pair_value
 
     @staticmethod
     def gen_key_64(key):
