@@ -17,8 +17,7 @@ Python3 +
 
 A step by step series of examples that tell you how to get a development env running
 
-First downlad the gihub project and include the "keyd" folder in your project.
-To use the library, import the keyd file from the keyd folder
+First downlad the gihub project and include the "keyd" folder in your project, then include the keyd module.
 
 ```
 from keyd import keyd
@@ -32,7 +31,7 @@ How to get started using keyd
 
 Note: currently keyd1 only supports a-z & 0-9 characters, more coming soon.
 
-### Creating a user ###
+### Creating a node ###
 To encrypt and decrypt messages, you need to make a keyd_node object. keyd_node objects act as a user, and are intended to only be used for communication with ONE other party, to communicate with another party, create a new keyd_node object.
  ```
 user1 = keyd.keyd_node()
