@@ -1,6 +1,7 @@
 # ke-yd1
 A Python3 encryption algorithm using secure key exchange based on Diffie Helman.
-![Image of the ke-yd1 algorithm](http://www.hedral.info/static/media/images/keyd_algorithm.png)
+
+![Image of the ke-yd1 algorithm](http://www.hedral.info/static/media/images/keyd/keyd_algorithm.png)
 
 ## Getting Started
 
