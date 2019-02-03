@@ -44,7 +44,7 @@ if the private key isn't specified, one will randomly be generated, all other va
 
 ### Setting up an exchange
 
-To send a message from user1 to user2, a common exchange key is required, this is used for both parties to encrypt and decrypt messages. Note, both parties MUST have the exact same base, modulus, epoch scale, and pair value for exchanges otherwise it wont work (a different epoch value for exchange keys wont matter but encryption and decyryption wont work).
+To send a message from user1 to user2, a common exchange key is required, this is used for both parties to encrypt and decrypt messages. Note, both parties MUST have the exact same base, modulus, epoch scale, and pair value for exchanges otherwise it wont work.
 
 ```
 user1.init_exchange(user2.get_public_key()) # initialise an exchange, from user 1 to user 2
