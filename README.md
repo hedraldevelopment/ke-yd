@@ -19,6 +19,7 @@ Python3 +
 
 A step by step series of examples that tell you how to get a development env running
 
+*https://pypi.org/* upload isn't working so for now follow these steps:
 First downlad the gihub project and include the "keyd" folder in your project, then include the keyd module.
 
 ```
